@@ -70,11 +70,11 @@
  * - Scala 2.12
  * - HyperLogLog++ (Probabilistic counting)
  *
- * AUTHOR: [Your Name]
- * COURSE: [Course Name]
+ * AUTHOR: Aseel Omar
+ * COURSE: Big Data
  * DATE: January 2026
  * =============================================================================
- */
+ **/
 
 
 
