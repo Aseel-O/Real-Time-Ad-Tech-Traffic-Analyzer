@@ -1,0 +1,9 @@
+[debug] > Exec(update, None, None)
+[debug] Evaluating tasks: update
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] downloading https://repo1.maven.org/maven2/org/mongodb/spark/mongo-spark-connector_2.12/10.1.1/mongo-spark-connector_2.12-10.1.1.pom
+[info] downloaded https://repo1.maven.org/maven2/org/mongodb/spark/mongo-spark-connector_2.12/10.1.1/mongo-spark-connector_2.12-10.1.1.pom
+[info] downloading https://repo1.maven.org/maven2/org/mongodb/spark/mongo-spark-connector_2.12/10.1.1/mongo-spark-connector_2.12-10.1.1.jar
+[info] downloaded https://repo1.maven.org/maven2/org/mongodb/spark/mongo-spark-connector_2.12/10.1.1/mongo-spark-connector_2.12-10.1.1.jar
+[success] Total time: 3 s, completed Jan 6, 2026, 7:54:17 PM
+[debug] > Exec(idea-shell, None, None)
