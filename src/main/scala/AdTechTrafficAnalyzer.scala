@@ -76,8 +76,6 @@
  * =============================================================================
  **/
 
-
-
 // ============================================================================
 // IMPORTS
 // ============================================================================
@@ -224,7 +222,7 @@ object AdTechTrafficAnalyzer {
     // the entire dataset to infer types like we do with batch processing.
     //
     // SCHEMA DESIGN DECISIONS:
-    // - timestamp: String (we'll convert to TimestampType after parsing)
+    // - timestamp: Non-nullable String (we'll convert to TimestampType after parsing)
     // - event_id: Non-nullable (required for potential deduplication)
     // - ip_address: Non-nullable (core field for bot detection)
     // - country: Non-nullable (required for geographic analysis)
@@ -233,7 +231,7 @@ object AdTechTrafficAnalyzer {
     // - device: Nullable (optional metadata)
     val adEventSchema = StructType(
       Seq(
-        StructField("timestamp", StringType, nullable = true),
+        StructField("timestamp", StringType, nullable = false),
         StructField("event_id", StringType, nullable = false),
         StructField("ip_address", StringType, nullable = false),
         StructField("country", StringType, nullable = false),
