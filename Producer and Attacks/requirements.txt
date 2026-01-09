@@ -1,0 +1,6 @@
+kafka-python==2.0.2
+pymongo==4.6.0
+streamlit==1.29.0
+plotly==5.18.0
+pandas==2.1.4
+Faker==22.0.0
