@@ -25,7 +25,6 @@
 - [Performance Metrics](#performance-metrics)
 - [Academic Paper](#academic-paper)
 - [Future Work](#future-work)
-- [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
@@ -77,13 +76,6 @@ This system combines:
 - **Automatic alerting:** Threshold-based (R > 2.5) with MongoDB persistence
 - **95%+ detection accuracy** validated with live bot attacks
 
-### 💪 Production-Ready
-- **Pipeline health monitoring:** Staleness detection, data age tracking
-- **Error handling:** Graceful degradation, malformed event filtering
-- **Configurable parameters:** CLI arguments for rate, duration, campaigns
-- **Comprehensive testing:** 3 demo scenarios, diagnostic utilities
-
----
 
 ## 🏗️ System Architecture
 
@@ -1247,7 +1239,7 @@ Nablus, West Bank, Palestine
 ### Academic Supervision
 - **Supervisor:** Hamed Abdelhaq
 - **Institution:** An-Najah National University, Faculty of Graduate Studies
-- **Course:** Big Data Analytics Capstone Project
+- **Course:** Big Data Analytics Final Project
 
 ### Technical Inspiration
 - **HyperLogLog++:** Google Research (Heule et al., 2013)
@@ -1265,8 +1257,7 @@ Nablus, West Bank, Palestine
 
 - **Lines of Code:** ~3,500+
   - Scala: 600 lines (Spark application)
-  - Python: 2,900 lines (Generator, dashboard, utilities)
-- **Development Time:** 3 months (September 2025 - January 2026)
+  - Python: 2,900 lines (Generator, dashboard)
 - **Documentation:** 6-page academic paper 
 - **Test Coverage:** 3 demo scenarios, 7-step diagnostic utility
 - **Performance:** 15-second latency, 937× memory reduction, 95%+ accuracy
