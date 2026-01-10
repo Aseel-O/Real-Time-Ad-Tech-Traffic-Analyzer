@@ -1,4 +1,4 @@
-# ad_traffic_generator.py - UPDATED with Weighted Country Distribution
+# ad_traffic_generator.py
 
 """
 Module: ad_traffic_generator
