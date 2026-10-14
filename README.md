@@ -32,7 +32,7 @@
 
 ## 🎯 Overview
 
-The **Real-Time Ad-Tech Traffic Analyzer** is a production-grade streaming analytics system that detects bot attacks in digital advertising campaigns within **10-15 seconds**. Using **HyperLogLog++** probabilistic data structures, the system achieves **937× memory reduction** compared to exact counting while maintaining **97-99% accuracy**.
+The **Real-Time Ad-Tech Traffic Analyzer** is a streaming analytics system that detects bot attacks in digital advertising campaigns within **10-15 seconds**. Using **HyperLogLog++** probabilistic data structures, the system achieves **937× memory reduction** compared to exact counting while maintaining **97-99% accuracy**.
 
 ### The Problem
 
@@ -70,7 +70,7 @@ This system combines:
 - **Geographic distribution:** 15 countries with realistic weighting (US: 35%, PS: 6%)
 - **Data quality monitoring:** Malformed event detection and tracking
 
-### 🚨 Sophisticated Bot Detection
+### 🚨 Bot Detection
 - **Ratio-based algorithm:** R = Total Hits / Unique Users (HLL++)
 - **4-tier severity classification:** NORMAL → SUSPICIOUS → HIGH_RISK → CRITICAL
 - **Automatic alerting:** Threshold-based (R > 2.5) with MongoDB persistence
